@@ -9,19 +9,158 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <title>MINANCE</title>
+  <title>MINANCE &bull; Dashboard</title>
 </head>
 <body>
   <section class="c-left">
+    <div>
+      <img src="img/home-logo.svg" alt="">
+    </div>
 
+    <button class="dash-btn">
+      <img src="img/vectorA.svg" alt="">
+      <p>Dashboard</p>
+    </button>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/invoices.svg" alt="">
+            <p>Invoices</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/clients.svg" alt="">
+            <p>Clients</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/products.svg" alt="">
+            <p>Products</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/messages.svg" alt="">
+            <p>Messages</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/settings.svg" alt="">
+            <p>Settings</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/help.svg" alt="">
+            <p>Help</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="logout-btn">
+      <img src="img/logout.svg" alt="">
+      <p>Logout</p>
+    </button>
   </section>
 
   <section class="c-mid">
-
+    <div class="top">
+      <h1>Hi, Rogers</h1>
+    </div>
   </section>
-  
-  <section class="c-right">
 
+  <section class="c-right">
+    <div class="top">
+      <img src="img/bell.svg" alt="">
+      <img src="img/profile.svg" alt="">
+    </div>
+
+    <div class="recents">
+      <h2>Recent Transactions</h2>
+      <div class="c-transactions">
+        <div class="log">
+          <img src="img/usdt.svg" alt="">
+          <div class="content">
+            <p>Usdt</p>
+            <p class="log-green">+$3,546</p>
+
+            <p class="log-opacity">Recieved</p>
+            <p class="log-opacity">Today, 13:45 pm</p>
+          </div>
+        </div>
+        
+        <div class="log">
+          <img src="img/binance.svg" alt="">
+          <div class="content">
+            <p>BNB</p>
+            <p class="log-green">+ 0.7546</p>
+
+            <p class="log-opacity">Buy</p>
+            <p class="log-opacity">Today, 5:45 am</p>
+          </div>
+        </div>
+
+        <div class="log">
+          <img src="img/lite.svg" alt="">
+          <div class="content">
+            <p>Lite Coin</p>
+            <p class="log-red">+ 0.7546</p>
+
+            <p class="log-opacity">Withdrawal</p>
+            <p class="log-opacity">Today 7:55 am</p>
+          </div>
+        </div>
+
+        <div class="log">
+          <img src="img/bitcoin.svg" alt="">
+          <div class="content">
+            <p>Bitcoin</p>
+            <p class="log-green">+ 2.7546</p>
+
+            <p class="log-opacity">Recieved</p>
+            <p class="log-opacity">Today 8:55 am</p>
+          </div>
+        </div>
+
+        <div class="log">
+          <img src="img/etherium.svg" alt="">
+          <div class="content">
+            <p>Etherium</p>
+            <p class="log-green">+ 1.646</p>
+
+            <p class="log-opacity">Recieved</p>
+            <p class="log-opacity">Today 10:02 am</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="assets">
+      <h2>Assests</h2>
+      <div class="c-asset bitcoin">
+        <img src="img/bitcoin-asset.png" alt="">
+        <p>Bitcion</p>
+        <div>
+          <p>121,6450.45</p>
+          <p>BTC</p>
+        </div>
+      </div>
+
+      <div class="c-asset etherium">
+        <img src="img/etherium_asset.png" alt="">
+        <p>Bitcion</p>
+        <div>
+          <p>121,6450.45</p>
+          <p>BTC</p>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 </html>
